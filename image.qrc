@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image2.png</file>
+        <file>arduino.cpp</file>
+        <file>arduino.h</file>
+        <file>connection.cpp</file>
+        <file>connection.h</file>
+        <file>connexion.cpp</file>
+        <file>dialog.cpp</file>
+        <file>dialog.h</file>
+        <file>image1.png</file>
+        <file>main.cpp</file>
+        <file>mainwindow.cpp</file>
+        <file>mainwindow.h</file>
+        <file>medcin.cpp</file>
+        <file>medcin.h</file>
+        <file>modifier1.cpp</file>
+        <file>modifier1.h</file>
+        <file>personel.cpp</file>
+        <file>personel.h</file>
+        <file>secretaire.cpp</file>
+        <file>secretaire.h</file>
+    </qresource>
+</RCC>

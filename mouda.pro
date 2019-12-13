@@ -4,8 +4,10 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui multimedia
 QT += sql
+QT += multimedia
+QT += serialport
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = mouda
@@ -26,18 +28,20 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-    connection.cpp \
+        mainwindow.cpp \
     personel.cpp \
-    dialog.cpp
+    medcin.cpp \
+    connection.cpp
 
 HEADERS += \
+        mainwindow.h \
     connection.h \
     ../../Desktop/Atelier_Crud11_Vf/personel.h \
     personel.h \
-    dialog.h
+    medcin.h
 
 FORMS += \
-    dialog.ui
+        mainwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
